@@ -1,0 +1,99 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Sunshine</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_share">Share</string>
+
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_rainfall_alert">Rainfall Alert</string>
+    <string name="pref_description_rainfall_alert">Get notified when rainfall is imminent</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_default_location" translatable="false">Lagos</string>
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <string name="pref_units_label">Pick a unit</string>
+    <string name="pref_units_key">unit</string>
+    <string name="pref_default_unit">0</string>
+    <string-array name="pref_unit_titles">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_unit_values">
+        <item>@string/pref_unit_metric</item>
+        <item>@string/pref_unit_imperial</item>
+    </string-array>
+
+    <string name="pref_unit_metric">metric</string>
+    <string name="pref_unit_imperial">imperial</string>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Today</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g>
+    </string>
+
+    <!-- Temperature formats -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- Windspeed format in mph [CHAR LIMIT=NONE] -->
+    <string name="format_wind_mph">Wind: <xliff:g id="wind_speed">
+        %1.0f</xliff:g> mph <xliff:g id="wind_dir">%2$s</xliff:g></string>
+
+    <!-- Windspeed format in km/h [CHAR LIMIT=NONE] -->
+    <string name="format_wind_kmh">Wind: <xliff:g id="wind_speed">
+        %1.0f</xliff:g> km/h <xliff:g id="wind_dir">%2$s</xliff:g></string>
+
+    <!-- Pressure format in hPa [CHAR LIMIT=NONE] -->
+    <string name="format_pressure">Pressure: <xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <!-- Humidity format in % [CHAR LIMIT=NONE] -->
+    <string name="format_humidity">Humidity: <xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
